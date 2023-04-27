@@ -31,18 +31,9 @@ jobs:
       run: mvn -B package --file Kata-Numeros-Romanos/pom.xml
     - name: Run tests with JUnit
       run: mvn -B test --file Kata-Numeros-Romanos/pom.xml
-    - name: Install Super-Linter
-      uses: github/super-linter@v4
+    - name: Lint Code Base
+      uses: github/super-linter@v5
       env:
-        VALIDATE_ALL_CODEBASE: true
-        DEFAULT_BRANCH: main
+        VALIDATE_ALL_CODEBASE: false
+        DEFAULT_BRANCH: master
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        LOG_LEVEL: debug
-        OUTPUT_FORMAT: json
-
-    - name: Print Super-Linter Errors
-      if: always()
-      run: |
-        echo "$(<./super-linter/output.json)"
-        echo "Errors detected by Super Linter:"
-        cat ./super-linter/output.json | jq -r '.files[] | select(.errors != null) | "\(.name):\n" + "    " + (.errors[].message | gsub("\n"; "\n    "))'
