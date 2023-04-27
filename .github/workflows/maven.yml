@@ -31,12 +31,3 @@ jobs:
       run: mvn -B package --file Kata-Numeros-Romanos/pom.xml
     - name: Run tests with JUnit
       run: mvn -B test --file Kata-Numeros-Romanos/pom.xml
-    - name: Install Super-Linter
-      run: |
-        git clone https://github.com/github/super-linter.git
-        cd super-linter
-        ./install.bat
-    - name: Run Super-Linter
-      run: |
-        cd super-linter
-        ./super-linter
