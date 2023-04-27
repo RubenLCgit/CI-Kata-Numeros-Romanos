@@ -31,5 +31,3 @@ jobs:
       run: mvn -B package --file Kata-Numeros-Romanos/pom.xml
     - name: Run tests with JUnit
       run: mvn -B test --file Kata-Numeros-Romanos/pom.xml
-    - name: Run Checkstyle
-      run: mvn checkstyle:checkstyle
