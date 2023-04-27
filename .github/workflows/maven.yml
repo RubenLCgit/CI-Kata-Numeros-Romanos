@@ -34,6 +34,6 @@ jobs:
     - name: Clone super-linter
       run: git clone https://github.com/github/super-linter.git
     - name: Configure super-linter for Java
-      run: cd super-linter && ./script/install && ./script/bootstrap && ./script/configure && ./script/install-all
+      run: cd super-linter && script\install.bat && script\bootstrap.bat && script\configure.bat && script\install-all.bat
     - name: Run Super Linter
-      run: cd super-linter && ./super-linter.sh
+      run: cd super-linter && ./super-linter.bat
