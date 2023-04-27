@@ -34,4 +34,9 @@ jobs:
     - name: Clone super-linter
       run: git clone https://github.com/github/super-linter.git
     - name: Run Super Linter
-      run: cd super-linter && ./super-linter.bat
+      run: |
+        cd super-linter
+        install.bat
+        bootstrap.bat
+        configure.bat
+        install-all.bat
