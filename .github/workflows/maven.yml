@@ -31,7 +31,9 @@ jobs:
       run: mvn -B package --file Kata-Numeros-Romanos/pom.xml
     - name: Run tests with JUnit
       run: mvn -B test --file Kata-Numeros-Romanos/pom.xml
-    - name: Checkstyle
-      run: mvn checkstyle:checkstyle
-      env:
-        CI: true
+    - name: Clone super-linter
+      run: git clone https://github.com/github/super-linter.git
+    - name: Configure super-linter for Java
+      run: cd super-linter && ./script/install && ./script/bootstrap && ./script/configure && ./script/install-all
+    - name: Run Super Linter
+      run: cd super-linter && ./super-linter.sh
