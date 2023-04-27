@@ -29,3 +29,5 @@ jobs:
         cache: maven
     - name: Build with Maven
       run: mvn -B package --file Kata-Numeros-Romanos/pom.xml
+    - name: Run tests with JUnit
+      run: mvn -B test --file Kata-Numeros-Romanos/pom.xml
