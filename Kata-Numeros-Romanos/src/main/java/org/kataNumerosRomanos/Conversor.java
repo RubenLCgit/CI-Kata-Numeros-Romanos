@@ -4,6 +4,7 @@ public class Conversor {
     public String convert(int number){
 
         /*PRUEBA DE INTEGRACION CONTINUA*/
+        /*NUEVA PRUEBA DE INTEGRACION CONTINUA*/
 
         int numUnid = number%10;
 
