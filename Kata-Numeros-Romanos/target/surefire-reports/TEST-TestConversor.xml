@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestConversor" time="0.229" tests="31" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestConversor" time="0.263" tests="31" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -11,7 +11,7 @@
     <property name="java.vm.specification.version" value="17"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/temurin-17-jdk-amd64/lib"/>
-    <property name="sun.java.command" value="/home/runner/work/CI-Kata-Numeros-Romanos/CI-Kata-Numeros-Romanos/Kata-Numeros-Romanos/target/surefire/surefirebooter16638483667592448308.jar /home/runner/work/CI-Kata-Numeros-Romanos/CI-Kata-Numeros-Romanos/Kata-Numeros-Romanos/target/surefire 2023-05-28T12-01-48_213-jvmRun1 surefire3320417699084282589tmp surefire_017207079282796218945tmp"/>
+    <property name="sun.java.command" value="/home/runner/work/CI-Kata-Numeros-Romanos/CI-Kata-Numeros-Romanos/Kata-Numeros-Romanos/target/surefire/surefirebooter1782547306383415105.jar /home/runner/work/CI-Kata-Numeros-Romanos/CI-Kata-Numeros-Romanos/Kata-Numeros-Romanos/target/surefire 2023-05-28T12-14-41_735-jvmRun1 surefire15132876657020167705tmp surefire_06980663381043654605tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/home/runner/work/CI-Kata-Numeros-Romanos/CI-Kata-Numeros-Romanos/Kata-Numeros-Romanos/target/test-classes:/home/runner/work/CI-Kata-Numeros-Romanos/CI-Kata-Numeros-Romanos/Kata-Numeros-Romanos/target/classes:/home/runner/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.2/junit-jupiter-api-5.9.2.jar:/home/runner/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/runner/.m2/repository/org/junit/platform/junit-platform-commons/1.9.2/junit-platform-commons-1.9.2.jar:/home/runner/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/runner/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.2/junit-jupiter-engine-5.9.2.jar:/home/runner/.m2/repository/org/junit/platform/junit-platform-engine/1.9.2/junit-platform-engine-1.9.2.jar:/home/runner/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.9.0/junit-jupiter-params-5.9.0.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -26,7 +26,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="/home/runner/work/CI-Kata-Numeros-Romanos/CI-Kata-Numeros-Romanos/Kata-Numeros-Romanos/target/surefire/surefirebooter16638483667592448308.jar"/>
+    <property name="surefire.real.class.path" value="/home/runner/work/CI-Kata-Numeros-Romanos/CI-Kata-Numeros-Romanos/Kata-Numeros-Romanos/target/surefire/surefirebooter1782547306383415105.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.7+7"/>
     <property name="user.name" value="runner"/>
@@ -51,35 +51,35 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="convert_tens_to_Roman_string(int, String)[1]" classname="TestConversor" time="0.048"/>
-  <testcase name="convert_tens_to_Roman_string(int, String)[2]" classname="TestConversor" time="0.002"/>
-  <testcase name="convert_tens_to_Roman_string(int, String)[3]" classname="TestConversor" time="0.001"/>
+  <testcase name="convert_tens_to_Roman_string(int, String)[1]" classname="TestConversor" time="0.076"/>
+  <testcase name="convert_tens_to_Roman_string(int, String)[2]" classname="TestConversor" time="0.001"/>
+  <testcase name="convert_tens_to_Roman_string(int, String)[3]" classname="TestConversor" time="0"/>
   <testcase name="convert_tens_to_Roman_string(int, String)[4]" classname="TestConversor" time="0.001"/>
   <testcase name="convert_tens_to_Roman_string(int, String)[5]" classname="TestConversor" time="0.001"/>
-  <testcase name="convert_tens_to_Roman_string(int, String)[6]" classname="TestConversor" time="0.002"/>
-  <testcase name="convert_tens_to_Roman_string(int, String)[7]" classname="TestConversor" time="0.001"/>
+  <testcase name="convert_tens_to_Roman_string(int, String)[6]" classname="TestConversor" time="0.001"/>
+  <testcase name="convert_tens_to_Roman_string(int, String)[7]" classname="TestConversor" time="0"/>
   <testcase name="convert_tens_to_Roman_string(int, String)[8]" classname="TestConversor" time="0.001"/>
-  <testcase name="convert_tens_to_Roman_string(int, String)[9]" classname="TestConversor" time="0"/>
+  <testcase name="convert_tens_to_Roman_string(int, String)[9]" classname="TestConversor" time="0.001"/>
   <testcase name="convert_units_to_Roman_string(int, String)[1]" classname="TestConversor" time="0.001"/>
-  <testcase name="convert_units_to_Roman_string(int, String)[2]" classname="TestConversor" time="0.001"/>
+  <testcase name="convert_units_to_Roman_string(int, String)[2]" classname="TestConversor" time="0"/>
   <testcase name="convert_units_to_Roman_string(int, String)[3]" classname="TestConversor" time="0.001"/>
   <testcase name="convert_units_to_Roman_string(int, String)[4]" classname="TestConversor" time="0.001"/>
   <testcase name="convert_units_to_Roman_string(int, String)[5]" classname="TestConversor" time="0"/>
   <testcase name="convert_units_to_Roman_string(int, String)[6]" classname="TestConversor" time="0.001"/>
-  <testcase name="convert_units_to_Roman_string(int, String)[7]" classname="TestConversor" time="0"/>
-  <testcase name="convert_units_to_Roman_string(int, String)[8]" classname="TestConversor" time="0.001"/>
+  <testcase name="convert_units_to_Roman_string(int, String)[7]" classname="TestConversor" time="0.001"/>
+  <testcase name="convert_units_to_Roman_string(int, String)[8]" classname="TestConversor" time="0"/>
   <testcase name="convert_units_to_Roman_string(int, String)[9]" classname="TestConversor" time="0.001"/>
   <testcase name="convert_hundreds_to_Roman_string(int, String)[1]" classname="TestConversor" time="0.001"/>
-  <testcase name="convert_hundreds_to_Roman_string(int, String)[2]" classname="TestConversor" time="0.001"/>
+  <testcase name="convert_hundreds_to_Roman_string(int, String)[2]" classname="TestConversor" time="0"/>
   <testcase name="convert_hundreds_to_Roman_string(int, String)[3]" classname="TestConversor" time="0.001"/>
-  <testcase name="convert_hundreds_to_Roman_string(int, String)[4]" classname="TestConversor" time="0.002"/>
-  <testcase name="convert_hundreds_to_Roman_string(int, String)[5]" classname="TestConversor" time="0.001"/>
+  <testcase name="convert_hundreds_to_Roman_string(int, String)[4]" classname="TestConversor" time="0.001"/>
+  <testcase name="convert_hundreds_to_Roman_string(int, String)[5]" classname="TestConversor" time="0"/>
   <testcase name="convert_hundreds_to_Roman_string(int, String)[6]" classname="TestConversor" time="0.001"/>
   <testcase name="convert_hundreds_to_Roman_string(int, String)[7]" classname="TestConversor" time="0"/>
-  <testcase name="convert_hundreds_to_Roman_string(int, String)[8]" classname="TestConversor" time="0"/>
+  <testcase name="convert_hundreds_to_Roman_string(int, String)[8]" classname="TestConversor" time="0.001"/>
   <testcase name="convert_hundreds_to_Roman_string(int, String)[9]" classname="TestConversor" time="0.001"/>
-  <testcase name="convert_thousands_to_Roman_string(int, String)[1]" classname="TestConversor" time="0"/>
-  <testcase name="convert_thousands_to_Roman_string(int, String)[2]" classname="TestConversor" time="0"/>
-  <testcase name="convert_thousands_to_Roman_string(int, String)[3]" classname="TestConversor" time="0.001"/>
+  <testcase name="convert_thousands_to_Roman_string(int, String)[1]" classname="TestConversor" time="0.001"/>
+  <testcase name="convert_thousands_to_Roman_string(int, String)[2]" classname="TestConversor" time="0.001"/>
+  <testcase name="convert_thousands_to_Roman_string(int, String)[3]" classname="TestConversor" time="0.006"/>
   <testcase name="convert_number_to_RomanNumber" classname="TestConversor" time="0.001"/>
 </testsuite>
